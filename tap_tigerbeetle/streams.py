@@ -18,7 +18,6 @@ class AccountsStream(TigerbeetleStream):
     path = "/"
     primary_keys = ["id"]
     schema = th.PropertiesList(
-        # TODO: Add the rest of the properties / fields from the API response (types, nested objects, etc.).
         th.Property(
             "id",
             th.StringType,
@@ -38,6 +37,34 @@ class AccountsStream(TigerbeetleStream):
         th.Property(
             "credits_posted",
             th.IntegerType,
+        ),
+        th.Property(
+            "user_data_128",
+            th.StringType,
+        ),
+        th.Property(
+            "user_data_64",
+            th.StringType,
+        ),
+        th.Property(
+            "user_data_32",
+            th.IntegerType,
+        ),
+        th.Property(
+            "ledger",
+            th.IntegerType,
+        ),
+        th.Property(
+            "code",
+            th.IntegerType,
+        ),
+        th.Property(
+            "flags",
+            th.ArrayType(th.StringType),
+        ),
+        th.Property(
+            "timestamp",
+            th.StringType,
         ),
     ).to_dict()
 

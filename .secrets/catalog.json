@@ -37,6 +37,53 @@
               "integer",
               "null"
             ]
+          },
+          "user_data_128": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "user_data_64": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "user_data_32": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "ledger": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "code": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "flags": {
+            "items": {
+              "type": [
+                "string"
+              ]
+            },
+            "type": [
+              "array",
+              "null"
+            ]
+          },
+          "timestamp": {
+            "type": [
+              "string",
+              "null"
+            ]
           }
         },
         "type": "object"
@@ -83,6 +130,69 @@
           "breadcrumb": [
             "properties",
             "credits_posted"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "user_data_128"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "user_data_64"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "user_data_32"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "ledger"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "code"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "flags"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "timestamp"
           ],
           "metadata": {
             "inclusion": "available"

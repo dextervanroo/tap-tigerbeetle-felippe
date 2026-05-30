@@ -1,0 +1,113 @@
+>  lookup_accounts id=1, id=2, id=3, id=4, id=5, id=6, id=7, id=8;
+{
+  "id": "1",
+  "debits_pending": "0",
+  "debits_posted": "10",
+  "credits_pending": "0",
+  "credits_posted": "0",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "10",
+  "flags": [],
+  "timestamp": "1780183628667616370"
+}
+{
+  "id": "2",
+  "debits_pending": "0",
+  "debits_posted": "0",
+  "credits_pending": "0",
+  "credits_posted": "10",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "10",
+  "flags": [],
+  "timestamp": "1780183632618595359"
+}
+{
+  "id": "3",
+  "debits_pending": "0",
+  "debits_posted": "25000",
+  "credits_pending": "0",
+  "credits_posted": "100000",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "1000",
+  "flags": ["debits_must_not_exceed_credits"],
+  "timestamp": "1780183636759876725"
+}
+{
+  "id": "4",
+  "debits_pending": "0",
+  "debits_posted": "0",
+  "credits_pending": "0",
+  "credits_posted": "55000",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "2000",
+  "flags": [],
+  "timestamp": "1780183643358189274"
+}
+{
+  "id": "5",
+  "debits_pending": "0",
+  "debits_posted": "150000",
+  "credits_pending": "0",
+  "credits_posted": "0",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "3000",
+  "flags": [],
+  "timestamp": "1780183668381245737"
+}
+{
+  "id": "6",
+  "debits_pending": "0",
+  "debits_posted": "0",
+  "credits_pending": "0",
+  "credits_posted": "20000",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "1",
+  "ledger": "700",
+  "code": "1000",
+  "flags": ["history"],
+  "timestamp": "1780183673249097028"
+}
+{
+  "id": "7",
+  "debits_pending": "0",
+  "debits_posted": "0",
+  "credits_pending": "0",
+  "credits_posted": "80000",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "276",
+  "ledger": "840",
+  "code": "1000",
+  "flags": [],
+  "timestamp": "1780183678291303605"
+}
+{
+  "id": "8",
+  "debits_pending": "0",
+  "debits_posted": "80000",
+  "credits_pending": "0",
+  "credits_posted": "0",
+  "user_data_128": "0",
+  "user_data_64": "0",
+  "user_data_32": "276",
+  "ledger": "840",
+  "code": "2000",
+  "flags": [],
+  "timestamp": "1780183682656765413"
+}

@@ -80,9 +80,7 @@ class TigerbeetleStream(RESTStream):
             cluster_id=0, replica_addresses=os.getenv("TB_ADDRESS", "3000")
         ) as client:
             while not finished:
-                prepared_request = self.prepare_request(
-                    context, next_page_token=next_page_token
-                )
+                prepared_request = self.prepare_request(context, next_page_token=next_page_token)
                 resp = decorated_request(prepared_request, context, client=client)
                 yield from self.parse_response(resp)
                 previous_token = copy.deepcopy(next_page_token)

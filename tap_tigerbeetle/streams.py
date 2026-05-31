@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+from typing import Any
+
 import requests
 import tigerbeetle as tb
 from hotglue_singer_sdk import typing as th  # JSON Schema typing helpers
